@@ -254,7 +254,7 @@ background: rgba(0, 0, 0, 0.6);
 
 .text-column {
     margin-top: 140px;
-    margin-left: 48px;
+    margin-left: 47px;
     padding-right: 24px;
     max-width: 700px;
 }
@@ -284,14 +284,13 @@ background: rgba(0, 0, 0, 0.6);
 .footer {
     max-width: 1100px;
     margin: 0 auto;
-    padding: auto 50px 82px;
+    padding: 0 50px 82px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
     "address nav social";
     align-items: start;
-    gap: 49px;
-    font-family: Raleway, sans-serif;
+    gap: 50px;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -300,18 +299,13 @@ background: rgba(0, 0, 0, 0.6);
     grid-area: address;
     max-width: 265px;
     line-height: 25px;
-    margin-left: 50px;
     font-style: normal;
 
 }
 
 .footer-menu {
     grid-area: nav;
-    margin: 0;
-    padding: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     font-weight: 400;
     line-height: 22px;
 }  
@@ -319,8 +313,6 @@ background: rgba(0, 0, 0, 0.6);
 .footer-menu-list {
     list-style: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
 .footer-menu-link {
@@ -335,11 +327,10 @@ background: rgba(0, 0, 0, 0.6);
 .footer-social-list {
     grid-area: social;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 48px;
     list-style: none;
-    padding: 0;
+    padding: 0 0 0 60px;
     margin: 0;
 }
 
